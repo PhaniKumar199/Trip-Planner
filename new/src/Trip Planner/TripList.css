@@ -1,0 +1,112 @@
+/* General container */
+.card-trip-list-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Add trip form */
+.add-trip-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.add-trip-form input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-trip-form button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-trip-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Trip cards */
+.trip-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.trip-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.trip-card h3 {
+  margin: 0;
+  color: #007bff;
+}
+
+.trip-card p {
+  margin: 10px 0;
+  color: #555;
+}
+
+/* Details section */
+.details-section {
+  margin-top: 15px;
+}
+
+.details-section h4 {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.details-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.details-section li {
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details-section button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.details-section button:hover {
+  background-color: #0056b3;
+}
+
+.delete-trip-btn {
+  margin-top: 20px;
+  background-color: #dc3545;
+}
+
+.delete-trip-btn:hover {
+  background-color: #c82333;
+}
